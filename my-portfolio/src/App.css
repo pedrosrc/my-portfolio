@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Oswald&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+:root{
+  /* Fonts */
+  --nav-font: 'Oswald', Arial, Sans-Serif;
+  --body-font: 'Inter', Arial, Sans-Serif;
+
+  /* Colors */
+  --green: #05731B;
+  --gray: #A9AEA8;
+
+}
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+body, 
+button, 
+input, 
+textarea {
+  font-family: var(--body-font);
+}
+body{
+  background-color: white;
+  overflow-x: hidden;
+}
+h1{
+  color: black;
+
+  font-family: var(--body-font);
+}
+h3{
+  color: var(--green);
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+button{
+  cursor: pointer;
+  border: none;
+  outline: none;
+} 
+.container{
+  width: 968px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid{
+  display: grid;
+  gap: 1.5rem;
+}
