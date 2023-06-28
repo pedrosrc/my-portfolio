@@ -8,27 +8,27 @@ export default function Skills() {
             <h1>Skills</h1>
             <div className='section_skills'>
                 <div className="skill">
-                    <DiHtml5 />
+                    <DiHtml5 color={'#F16528'} />
                     <span>HTML 5</span>
                 </div>
                 <div className="skill">
-                    <DiCss3 />
+                    <DiCss3 color={'#379AD6'} />
                     <span>CSS3</span>
                 </div>
                 <div className="skill">
-                    <DiJavascript1 />
+                    <DiJavascript1 color={'#F7E018'} />
                     <span>JavaScript</span>
                 </div>
                 <div className="skill">
-                    <DiGit />
+                    <DiGit color={'#F05033'} />
                     <span>Git/GitHub</span>
                 </div>
                 <div className="skill">
-                    <SiTypescript />
+                    <SiTypescript color={'#3178C6'}/>
                     <span>TypeScript</span>
                 </div>
                 <div className="skill">
-                    <DiReact/>
+                    <DiReact color={'#61DBFB'}/>
                     <span>React.Js</span>
                 </div>
                 <div className="skill">
@@ -36,19 +36,19 @@ export default function Skills() {
                     <span>Next.Js</span>
                 </div>
                 <div className="skill">
-                    <DiNodejsSmall/>
+                    <DiNodejsSmall color={'#88C043'}/>
                     <span>Node.Js</span>
                 </div>
                 <div className="skill">
-                    <SiFirebase/>
+                    <SiFirebase color={'#F2C129'}/>
                     <span>Firebase</span>
                 </div>
                 <div className="skill">
-                    <SiTailwindcss/>
+                    <SiTailwindcss color={'#01B7D6'}/>
                     <span>Tailwind Css</span>
                 </div>
                 <div className="skill">
-                    <DiBootstrap/>
+                    <DiBootstrap color={'#563E7C'}/>
                     <span>Bootstrap</span>
                 </div>
                 <div className="skill">
@@ -56,7 +56,7 @@ export default function Skills() {
                     <span>Figma</span>
                 </div>
                 <div className="skill">
-                    <SiVite/>
+                    <SiVite color={'#8B73FE'}/>
                     <span>Vite</span>
                 </div>
 

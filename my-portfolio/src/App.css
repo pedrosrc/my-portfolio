@@ -47,11 +47,7 @@ button{
   border: none;
   outline: none;
 } 
-.container{
-  width: 968px;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 .grid{
   display: grid;

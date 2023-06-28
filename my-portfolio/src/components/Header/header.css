@@ -1,15 +1,17 @@
 .header{
     width: 100%;
     top: 0;
-    left: 0;
+    left: 0; 
     background-color: white;
+    overflow-x: hidden;
 }
 .nav{
     height: calc(80px + 1.5rem);
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     display: flex;
     column-gap: 1rem;
+    width: 100%;
 }
 .logo_nav{
     background-color: #05731B;
@@ -18,17 +20,14 @@
     padding: 6px;
     border: 1px solid #05731B;
     transition: .4s;
-    
 }
 .logo_nav:hover{
     background-color: transparent;
     color: #05731B;
     transform: translate(-3px,-5px);
-    
 }
 .nav_list{
     display: flex;
-
 }
 .nav_link{
     text-transform: uppercase;
@@ -38,4 +37,21 @@
 .nav_link:hover{
     color: #05731B;
     transform: translate(-3px,-5px);
+}
+@media screen and (max-width: 900px) {
+    .nav{
+        width: 100%;
+        margin: 0 auto;
+        justify-content: space-around;
+    }
+    
+}
+@media screen and (max-width: 720px) {
+    
+}
+@media screen and (max-width: 500px) {
+    
+}
+@media screen and (max-width: 300px) {
+    
 }

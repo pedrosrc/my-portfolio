@@ -3,8 +3,9 @@
 .container_home {
     display: flex;
     align-items: center;
-    height: 90vh;
+    height: 90vh; 
     justify-content: space-around;
+    overflow-x: hidden;
 }
 .section_name h1 {
     font-family: 'Inter';
@@ -35,4 +36,27 @@
 .icons_social .icon_linkedin svg:hover {
     color: #0A66C2;
     transition: .4s;
+}
+@media screen and (max-width: 900px) {
+    .container_home{
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+        height: 100%;
+        margin-bottom: 170px;
+    }
+    .section_name{
+        margin-top: 150px;
+        margin-bottom: 70px;
+    }
+    
+}
+@media screen and (max-width: 720px) {
+    
+}
+@media screen and (max-width: 500px) {
+    
+}
+@media screen and (max-width: 300px) {
+    
 }
