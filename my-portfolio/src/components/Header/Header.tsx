@@ -11,7 +11,7 @@ const Header = () => {
                     <ul className='nav_list grid'>
 
                         <li className='nav_item'>
-                            <a href="#container_about" className='nav_link'>
+                            <a href="./container_about" className='nav_link'>
                                 Sobre Mim
                             </a>
                         </li>

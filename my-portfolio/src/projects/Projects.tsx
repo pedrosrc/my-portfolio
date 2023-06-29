@@ -25,7 +25,7 @@ export default function Projects() {
                     <img src="./Cinewacth.png" alt="" />
                     <h2>CineWacth</h2>
                     <p>Visualize os principais filmes em cartazes nos cinemas em tempo real</p>
-                    <span>React.Js - Bootstrap -  API</span>
+                    <span>React.Js - Bootstrap -  API </span>
                     <a href="">Acessar</a>
                 </div>
                 <div className='project'>
@@ -38,7 +38,7 @@ export default function Projects() {
                         visible={true}
                     />
                     <h2>Em Desenvolvimento</h2>
-                    <p>Em Breve Disponível. Evolução sempre em Constânncia.</p>
+                    <p>Em Breve Disponível. Evolução sempre em Constância.</p>
                     <span>React.Js - TypeScript - TailWind - Firebase</span>
                     <a href="#">...</a>
                 </div>

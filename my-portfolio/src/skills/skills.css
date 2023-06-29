@@ -5,6 +5,7 @@
     flex-direction: column;
     padding: 20px;
     height: 100vh;
+    overflow-x: hidden;
 }
 .container_skills h1{
     text-align: center;
@@ -34,4 +35,25 @@
 .skill:hover{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     transform: translate(-3px,-5px);
+}
+@media screen and (max-width: 900px) {
+    .container_skills{
+        height: 100%;
+        margin: auto;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    .section_skills{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 720px) {
+    
+}
+@media screen and (max-width: 500px) {
+    
+}
+@media screen and (max-width: 300px) {
+    
 }

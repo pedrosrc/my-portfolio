@@ -16,6 +16,11 @@ function App() {
       <Skills/>
       <Projects/>
       <Contact/>
+      <footer>
+        <a href="https://github.com/pedrosrc" target='_blank'>
+        Created by Pedro Leonardo
+        </a>
+      </footer>
     </>
   )
 }

@@ -23,6 +23,9 @@ input,
 textarea {
   font-family: var(--body-font);
 }
+#root{
+  overflow-x: hidden;
+}
 body{
   background-color: white;
   overflow-x: hidden;
@@ -52,4 +55,13 @@ button{
 .grid{
   display: grid;
   gap: 1.5rem;
+}
+footer{
+  background-color: #05731B;
+  text-align: center;
+  padding: 5px;
+}
+footer a{
+  color: white;
+
 }

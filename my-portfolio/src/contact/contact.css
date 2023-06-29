@@ -4,6 +4,7 @@
     justify-content: center;
     flex-direction: column;
     padding: 20px;
+    overflow-x: hidden;
     height: 100vh;
 }
 .container_contact h1{
@@ -50,4 +51,27 @@
 .contact img:hover{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     transform: translate(-3px,-5px);
+}
+@media screen and (max-width: 900px) {
+    .container_contact{
+        height: 100%;
+        margin-top: 70px;
+        padding: 10px;
+    }
+    .section_contact{
+        justify-content: space-around;
+    }
+    .contact img{
+        margin-left: 50px;
+    }
+
+}
+@media screen and (max-width: 720px) {
+    
+}
+@media screen and (max-width: 500px) {
+    
+}
+@media screen and (max-width: 300px) {
+    
 }
