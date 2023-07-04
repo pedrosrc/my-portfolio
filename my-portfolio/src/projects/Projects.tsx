@@ -4,7 +4,7 @@ import './projects.css'
 
 export default function Projects() {
     return (
-        <div className="container_projects">
+        <div className="container_projects" id='projects'>
             <h1>Projetos</h1>
             <div className='section_projects'>
                 <div className='project'>
@@ -12,21 +12,21 @@ export default function Projects() {
                     <h2>Listas</h2>
                     <p>Adicione e Conclua suas Tarefas em armazenadas na nuvem.</p>
                     <span>React.Js - Firebase</span>
-                    <a href="">Acessar</a>
+                    <a href="https://lista-tarefas-nine.vercel.app/" target='_blank'>Acessar</a>
                 </div>
                 <div className='project'>
                     <img src="./Finder.png" alt="" />
                     <h2>Finder GitHub</h2>
                     <p>Visualize os répositorios dos usúarios do GitHub.</p>
                     <span>React.Js - TypeScript - Next.Js</span>
-                    <a href="">Acessar</a>
+                    <a href="https://repos-app.vercel.app/" target='_blank'>Acessar</a>
                 </div>
                 <div className='project'>
                     <img src="./Cinewacth.png" alt="" />
                     <h2>CineWacth</h2>
                     <p>Visualize os principais filmes em cartazes nos cinemas em tempo real</p>
                     <span>React.Js - Bootstrap -  API </span>
-                    <a href="">Acessar</a>
+                    <a href="https://cine-wacth.vercel.app/" target='_blank'>Acessar</a>
                 </div>
                 <div className='project'>
                     <Triangle

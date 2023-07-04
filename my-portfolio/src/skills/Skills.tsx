@@ -4,7 +4,7 @@ import './skills.css'
 
 export default function Skills() {
     return (
-        <div className="container_skills">
+        <div className="container_skills" id="skills">
             <h1>Skills</h1>
             <div className='section_skills'>
                 <div className="skill">

@@ -58,7 +58,12 @@
     
 }
 @media screen and (max-width: 500px) {
-    
+    .section_name h1 {
+        font-size: 2em;
+    }
+    .section_image img{
+        width: 300px;
+    }
 }
 @media screen and (max-width: 300px) {
     

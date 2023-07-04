@@ -15,7 +15,6 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
-    flex-wrap: wrap;
     margin-top: 70px;
 }
 .contact{
@@ -52,7 +51,7 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     transform: translate(-3px,-5px);
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     .container_contact{
         height: 100%;
         margin-top: 70px;
@@ -64,14 +63,17 @@
     .contact img{
         margin-left: 50px;
     }
-
 }
 @media screen and (max-width: 720px) {
-    
-}
-@media screen and (max-width: 500px) {
-    
-}
-@media screen and (max-width: 300px) {
-    
+    .container_contact{
+        margin-bottom: 90px;
+    }
+    .contact{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .contact img{
+        margin-left: 0;
+    }
 }

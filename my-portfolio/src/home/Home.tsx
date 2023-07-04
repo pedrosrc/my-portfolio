@@ -3,7 +3,7 @@ import {FiGithub,FiLinkedin} from 'react-icons/fi'
 
 export default function Home() {
     return(
-        <div className="container_home">
+        <div className="container_home" id='home'>
             <div className="section_name">
                 <h1>Olá, eu sou</h1>
                 <h1>Pedro Leonardo</h1>

@@ -36,7 +36,7 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     transform: translate(-3px,-5px);
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     .container_skills{
         height: 100%;
         margin: auto;
@@ -46,14 +46,4 @@
     .section_skills{
         width: 100%;
     }
-    
-}
-@media screen and (max-width: 720px) {
-    
-}
-@media screen and (max-width: 500px) {
-    
-}
-@media screen and (max-width: 300px) {
-    
 }
