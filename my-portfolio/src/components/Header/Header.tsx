@@ -7,8 +7,12 @@ const Header = () => {
     const [toogle, setToogle] = useState<boolean>(false)
     const [showMenu, setShowMenu] = useState<boolean>(false)
 
+    
+
     function Menu(){
-        setShowMenu(true)
+        if(!showMenu){
+          setShowMenu(true)  
+        }
         setToogle(true)
     }
     function MenuClose(){
