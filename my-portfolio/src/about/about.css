@@ -23,10 +23,9 @@
     width: 400px;
 }
 .image_about img{
-    width: 350px;
+    width: 400px;
     float: right;
-    border-radius: 50%;
-    background-color: #05731B;
+    background-color: transparent;
 }
 .section_about .text_about{
     width: 500px;
@@ -35,8 +34,9 @@
     font-size: 21px;
     text-align: start;
 }
-.text_about a{
+.text_about .cv_download, .buttons_cv a{
     display: flex;
+    width: 100%;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -50,8 +50,18 @@
     transition: .4s;
     cursor: pointer;
     text-transform: uppercase;
+    
 }
-.text_about a:hover{
+.buttons_cv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.buttons_cv a{
+    border-radius: 10px;
+    width: 10rem;
+}
+.buttons_cv a:hover{
     border: 1px solid #05731B;
     background-color: #05731b18;
     color: #05731B;
@@ -70,7 +80,7 @@
         justify-content: center;
         flex-direction: column;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        background-color: #05731B;
+        
     }
     .image_about{
         padding: 10px;
@@ -82,18 +92,15 @@
         background-color: transparent;
     }
     .text_about p{
-        color: white;
         padding-bottom: 10px;
     }
     .text_about a{
-        background-color: white;
-        color: #05731B;
         margin-bottom: 20px;
     }
     .text_about a:hover{
-        border: 1px solid white;
+        border: 1px solid #05731B;
         background-color: transparent;
-        color: white;
+        color: #05731B;
     }
 }
 @media screen and (max-width: 720px) {

@@ -12,7 +12,6 @@ const Header = () => {
         setToogle(true)
     }
     function MenuClose(){
-        !showMenu
         setToogle(false)
         setShowMenu(false)
     }

@@ -22,11 +22,11 @@ export default function Projects() {
                     <a href="https://repos-app.vercel.app/" target='_blank'>Acessar</a>
                 </div>
                 <div className='project'>
-                    <img src="./Cinewacth.png" alt="" />
-                    <h2>CineWacth</h2>
-                    <p>Visualize os principais filmes em cartazes nos cinemas em tempo real</p>
-                    <span>React.Js - Bootstrap -  API </span>
-                    <a href="https://cine-wacth.vercel.app/" target='_blank'>Acessar</a>
+                    <img src="./Travel.png" alt="" />
+                    <h2>Travel</h2>
+                    <p>Visualize as passagens para as regiões do Brasil e outros países.</p>
+                    <span>React.Js - TypeScript - Node.Js - MySQL </span>
+                    <a href="https://travel-viagens-nine.vercel.app/" target='_blank'>Acessar</a>
                 </div>
                 <div className='project'>
                     <Triangle
