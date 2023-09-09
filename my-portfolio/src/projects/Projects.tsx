@@ -39,7 +39,7 @@ export default function Projects() {
                     />
                     <h2>Em Desenvolvimento</h2>
                     <p>Em Breve Disponível. Evolução sempre em Constância.</p>
-                    <span>React.Js - TypeScript - TailWind - Firebase</span>
+                    <span>React.Js - TypeScript - Node.Js - PostgreSQL</span>
                     <a href="#">...</a>
                 </div>
             </div>

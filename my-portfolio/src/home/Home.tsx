@@ -7,7 +7,7 @@ export default function Home() {
             <div className="section_name">
                 <h1>Olá, eu sou</h1>
                 <h1>Pedro Leonardo</h1>
-                <h3>Desenvolvedor Front-End.</h3>
+                <h3>Desenvolvedor Web.</h3>
                 <div className='icons_social'>
                     <a href="https://github.com/pedrosrc" target='_blank' className='icon_github' title='GitHub'>
                         <FiGithub/>
