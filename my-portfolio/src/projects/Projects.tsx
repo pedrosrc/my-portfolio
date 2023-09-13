@@ -25,7 +25,7 @@ export default function Projects() {
                     <img src="./Travel.png" alt="" />
                     <h2>Travel</h2>
                     <p>Visualize as passagens para as regiões do Brasil e outros países.</p>
-                    <span>React.Js - TypeScript - Node.Js - MySQL </span>
+                    <span>React.Js - TypeScript - Node.Js - PostgreSQL </span>
                     <a href="https://travel-viagens-nine.vercel.app/" target='_blank'>Acessar</a>
                 </div>
                 <div className='project'>
