@@ -20,7 +20,7 @@ export default function About() {
                 </div>
                 <div className='text_about'>
                     <p>
-                        Sou desenvolvedor web com foco em front-end e curso Análise e Desenvolvimento de Sistemas pela Estácio.  Estou sempre em busca de conhecimento para expandir meu conjunto de habilidades, e com ambinção em se tornar full-stack, seja aprendendo novas tecnologias, explorando frameworks ou bibliotecas inovadores. Também busco oportunidades na área, para me tornar um profissional cada vez mais completo e eficiente na área de desenvolvimento web.
+                        Sou desenvolvedor web com foco em front-end e curso Análise e Desenvolvimento de Sistemas pela Estácio.  Estou sempre em busca de conhecimento para expandir meu conjunto de habilidades, e com ambição em se tornar full-stack, seja aprendendo novas tecnologias, explorando frameworks ou bibliotecas inovadores. Também busco oportunidades na área, para me tornar um profissional cada vez mais completo e eficiente na área de desenvolvimento web.
                     </p>
                     <button onClick={toggleOptions} className='cv_download'>
                         Baixar CV

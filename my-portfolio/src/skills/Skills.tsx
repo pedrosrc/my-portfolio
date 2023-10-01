@@ -1,5 +1,6 @@
-import { DiBootstrap, DiCss3, DiHtml5, DiGit, DiJavascript1, DiReact,DiNodejsSmall} from "react-icons/di";
-import {SiTypescript, SiNextdotjs, SiFigma, SiFirebase, SiTailwindcss, SiVite} from 'react-icons/si'
+import { DiBootstrap, DiCss3, DiHtml5, DiNodejsSmall, DiStreamline, DiCodeBadge, DiGitBranch, DiCode } from "react-icons/di";
+import { SiTypescript, SiNextdotjs, SiFigma, SiFirebase, SiTailwindcss, SiReact, SiJavascript,SiExpress, SiFastify, SiMysql, SiMongodb, SiPostgresql, SiGimp } from 'react-icons/si'
+
 import './skills.css'
 
 export default function Skills() {
@@ -7,61 +8,45 @@ export default function Skills() {
         <div className="container_skills" id="skills">
             <h1>Skills</h1>
             <div className='section_skills'>
-                <div className="skill">
-                    <DiHtml5 color={'#F16528'} />
-                    <span>HTML 5</span>
-                </div>
-                <div className="skill">
-                    <DiCss3 color={'#379AD6'} />
-                    <span>CSS3</span>
-                </div>
-                <div className="skill">
-                    <DiJavascript1 color={'#F7E018'} />
-                    <span>JavaScript</span>
-                </div>
-                <div className="skill">
-                    <DiGit color={'#F05033'} />
-                    <span>Git/GitHub</span>
-                </div>
-                <div className="skill">
-                    <SiTypescript color={'#3178C6'}/>
-                    <span>TypeScript</span>
-                </div>
-                <div className="skill">
-                    <DiReact color={'#61DBFB'}/>
-                    <span>React.Js</span>
-                </div>
-                <div className="skill">
-                    <SiNextdotjs/>
-                    <span>Next.Js</span>
-                </div>
-                <div className="skill">
-                    <DiNodejsSmall color={'#88C043'}/>
-                    <span>Node.Js</span>
-                </div>
-                <div className="skill">
-                    <SiFirebase color={'#F2C129'}/>
-                    <span>Firebase</span>
-                </div>
-                <div className="skill">
-                    <SiTailwindcss color={'#01B7D6'}/>
-                    <span>Tailwind Css</span>
-                </div>
-                <div className="skill">
-                    <DiBootstrap color={'#563E7C'}/>
-                    <span>Bootstrap</span>
-                </div>
-                <div className="skill">
-                    <SiFigma/>
-                    <span>Figma</span>
-                </div>
-                <div className="skill">
-                    <SiVite color={'#8B73FE'}/>
-                    <span>Vite</span>
-                </div>
-
-
-
+                <details className="section-tech">
+                    <summary id="front"><div>Front-End <DiCode/></div></summary>
+                    <ul>
+                        <li><DiHtml5/>|<DiCss3/>HTML-CSS</li>
+                        <li><SiJavascript/>JavaScript</li>
+                        <li><SiTypescript />TypeScript</li>
+                        <li><SiReact /> React.Js</li>
+                        <li><SiNextdotjs />Next.Js</li>
+                        <li><SiTailwindcss /> TailWind CSS</li>
+                        <li><DiBootstrap/>Boostrap</li>
+                    </ul>
+                </details>
+                <details className="section-tech">
+                    <summary id="back"><div>Back-End <DiGitBranch/></div></summary>
+                    <ul>
+                        <li><SiJavascript/>JavaScript</li>
+                        <li><SiTypescript />TypeScript</li>
+                        <li><DiNodejsSmall/>Node.Js</li>
+                        <li><SiExpress/>Express</li>
+                        <li><SiFastify/> Fastify </li>
+                    </ul>
+                </details>
+                <details className="section-tech">
+                    <summary id="data"><div>Banco de Dados <DiStreamline/> </div></summary>
+                    <ul>
+                        <li><SiMysql/>MySQL</li>
+                        <li><SiMongodb />MongoDB</li>
+                        <li><SiPostgresql/>PostgreSQL</li>
+                        <li><SiFirebase/>Cloud Firestore (Firebase)</li>
+                       
+                    </ul>
+                </details>
+                <details className="section-tech">
+                    <summary id="design"><div>Design <DiCodeBadge/> </div></summary>
+                    <ul>
+                        <li><SiFigma />Figma</li>
+                        <li><SiGimp /> Gimp </li>
+                    </ul>
+                </details>
 
             </div>
         </div>

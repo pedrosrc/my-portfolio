@@ -5,7 +5,7 @@
     margin-bottom: 50px;
     flex-direction: column;
     padding: 20px;
-    height: 100vh;
+    height: 100%;
     overflow-x: hidden;
 }
 .container_skills h1{
@@ -15,28 +15,84 @@
 .section_skills{
     display: flex;
     margin: 70px auto;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
     flex-wrap: wrap;
-    width: 1200px;
+    width: 800px;
 }
-.section_skills svg{
-    margin: 20px 35px;
-    font-size: 55px;
+.section-tech{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+} 
+.section-tech svg{
+    font-size: 20px;
 }
-.skill{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin:  0 15px;
+.section-tech summary{
+    all: unset;
+    border-radius: 20px;
+    width: 250px;
     padding: 10px;
-    transition: .4s;
-    border-radius: 10px;
-}
-.skill:hover{
+    color: #000;
+    text-align: center;
+    background-color: white;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    transform: translate(-3px,-5px);
+    cursor: pointer;
 }
+summary > div{
+    display: flex;
+    font-weight: 600;
+    align-items: center;
+    justify-content: space-around;
+}
+.section-tech details{
+    color: #000;
+}
+.section-tech ul{
+    margin: 0 auto;
+    padding: 5px;
+    width: 150px;
+    padding-top: 10px;
+    border-radius: 0 0 10px 10px;
+    background-color:whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    animation-name: faded;
+    animation-duration: .3s;
+}
+.section-tech li{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+}
+.section-tech li > svg{
+    margin-right: 5px;
+}
+.section-tech li + li{
+    margin-top: 0.5rem;
+}
+
+#front:hover{
+    background-color: #031766;
+    color: white;
+    transition: .3s ease;
+}
+#back:hover{
+    background-color: #0B633A;
+    color: white;
+    transition: .3s ease;
+}
+#data:hover{
+    background-color: #E35700;
+    color: white;
+    transition: .3s ease;
+}
+#design:hover{
+    background-color: #5C0069;
+    color: white;
+    transition: .3s ease;
+}
+
+
+
 @media screen and (max-width: 1000px) {
     .container_skills{
         height: 100%;
@@ -48,3 +104,8 @@
         width: 100%;
     }
 }
+
+@keyframes faded {
+    0%   {opacity: 0; }
+    100% {opacity: 1;}
+  }
